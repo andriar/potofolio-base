@@ -517,7 +517,8 @@ footer {
 
 	.card-left img,
 	.card-right img {
-		max-width: 400px;
+		width: 100%;
+		object-fit: contain;
 		border-radius: 0%;
 		align-self: center;
 	}
