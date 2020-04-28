@@ -271,7 +271,6 @@ nav {
 .project-container a {
 	text-decoration: none;
 	position: relative;
-	z-index: 1;
 	display: inline-flex;
 	font-weight: 800;
 	color: black;
@@ -402,8 +401,13 @@ textarea {
 	border-color: #0984e3;
 	border-radius: 4px;
 	padding: 5px;
-	max-width: 200px;
+	width: 200px;
 	margin: 0 auto;
+}
+
+.form-contact button:hover {
+	background-color: #0984e3;
+	color: white;
 }
 
 #sendmail {
@@ -545,6 +549,16 @@ textarea {
 		z-index: -1;
 	}
 
+	.form-contact {
+		width: 90%;
+	}
+
+	.form-contact button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
 	.card-left {
 		width: 95%;
 		display: flex;
