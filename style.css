@@ -28,7 +28,7 @@ nav {
 	font-size: 22px;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #0984e3;
+	color: #3498db;
 	height: 100%;
 }
 
@@ -152,7 +152,7 @@ nav {
 
 .profession {
 	position: relative;
-	font-size: 12px;
+	font-size: 14px;
 	animation: name 2s forwards;
 }
 
@@ -202,11 +202,11 @@ nav {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #0984e3;
+	color: #3498db;
 	border-style: solid;
 	border-radius: 4px;
 	border-width: 1px;
-	border-color: #0984e3;
+	border-color: #3498db;
 	font-size: 14px;
 	animation: name 2s forwards;
 }
@@ -217,7 +217,7 @@ nav {
 	left: 0;
 	width: 100%;
 	height: 0%;
-	background: #0984e3;
+	background: #3498db;
 	z-index: -1;
 	transition: 0.8s;
 	top: 0;
@@ -314,6 +314,17 @@ nav {
 	text-transform: uppercase;
 }
 
+.title-white {
+	font-size: 26px;
+	font-weight: 800;
+	padding: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+
 .card-left,
 .card-right {
 	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
@@ -366,6 +377,8 @@ footer {
 	text-align: center;
 	font-size: 12px;
 	padding: 10px;
+	background-color: #3498db;
+	color: white;
 }
 
 .line-break {
@@ -396,22 +409,33 @@ textarea {
 }
 
 .form-contact button {
-	background-color: white;
-	color: #0984e3;
-	border-color: #0984e3;
+	cursor: pointer;
+	background-color: #3498db;
+	color: white;
+	border: solid;
+	border-width: 1px;
+	border-color: white;
 	border-radius: 4px;
 	padding: 5px;
 	width: 200px;
 	margin: 0 auto;
+	text-transform: uppercase;
 }
 
 .form-contact button:hover {
-	background-color: #0984e3;
-	color: white;
+	background-color: white;
+	color: #3498db;
 }
 
 #sendmail {
-	margin-bottom: 100px;
+	background-color: #3498db;
+	padding-top: 5px;
+	padding-bottom: 50px;
+}
+
+.wave {
+	width: 100%;
+	margin-bottom: -10px;
 }
 
 @keyframes lamp {
@@ -477,7 +501,7 @@ textarea {
 	.nav-links {
 		z-index: 1;
 		position: fixed;
-		background-color: #0984e3;
+		background-color: #3498db;
 		height: 100vh;
 		width: 100%;
 		flex-direction: column;
@@ -555,6 +579,11 @@ textarea {
 
 	.form-contact button {
 		width: 100%;
+	}
+
+	.wave {
+		width: 100%;
+		margin-bottom: -7px;
 	}
 }
 
