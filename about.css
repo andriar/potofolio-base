@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.container {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 100px;
+}
+
+.a-name {
+	border: solid;
+	border-color: #2f495e;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	padding-left: 20px;
+}
+
+.a-proffesion {
+	padding-top: 10px;
+	padding-left: 22px;
+	font-size: 18px;
+	color: #bdc3c7;
+}
+
+.container-body {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.a-title {
+	flex: 1;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.a-desc {
+	flex: 3;
+	text-align: justify;
+}
+
+.a-skills {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 3;
+}
+
+.a-skills-div {
+	padding: 10px;
+	width: 175px;
+	display: flex;
+	flex-direction: column;
+	background-color: #2f495e;
+	color: white;
+	border-radius: 20px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.a-skills-div div {
+	margin: 5px;
+}
+
+.a-detail {
+	flex: 3;
+	background-color: #2f495e;
+	color: white;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.a-group {
+	flex-direction: row;
+	display: flex;
+	flex: 1;
+}
+
+.a-group-detail {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin-bottom: 30px;
+}
+
+.a-detail-title {
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.a-detail-body {
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		margin-top: 100px;
+	}
+
+	.container-body {
+		flex-direction: column;
+	}
+
+	.container-body div {
+		margin-bottom: 20px;
+	}
+
+	.a-group {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+}
